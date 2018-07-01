@@ -1,0 +1,27 @@
+{
+  "name": "UI-Plotter",
+  "version": "0.0.1",
+  "description": "Electron App",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "webpack --mode production",
+    "build-watch": "webpack --watch"
+  },
+  "author": "Kento75",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.6.0",
+    "webpack-cli": "^3.0.8",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "electron": "^2.0.3",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  },
+  "dependencies": {
+    "marked": "^0.4.0"
+  }
+}
