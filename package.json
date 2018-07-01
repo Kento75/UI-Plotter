@@ -22,6 +22,7 @@
     "react-dom": "^16.4.1"
   },
   "dependencies": {
-    "marked": "^0.4.0"
+    "marked": "^0.4.0",
+    "photon": "git+https://github.com/connors/photon.git"
   }
 }

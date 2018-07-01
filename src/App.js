@@ -1,10 +1,14 @@
-import React, {Component} from 'react';
-import Markdown from './Markdown';
+import React, {Component} from 'react'
+import Markdown from './Markdown'
 
 class App extends Component {
   render() {
-    return (<Markdown />);
+    return (
+      <div>
+        <Markdown />
+      </div>
+    )
   }
 }
 
-export default App;
+export default App

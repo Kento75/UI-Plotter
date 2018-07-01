@@ -1,0 +1,22 @@
+    <div className='window'>
+      <div className='window-content'>
+        <div className='pane-group'>
+          <div className='pane-sm sidebar'>
+            <div>
+              <ul className='list-group'>
+                <li className='list-group-item'>
+                  <label>
+                    <textarea onChange={this.updateMarkdown}></textarea>
+                  </label>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className='pane'>
+            <div className='padded-more'>
+              <div className='padded-more' dangerouslySetInnerHTML={{ __html: html }} />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
